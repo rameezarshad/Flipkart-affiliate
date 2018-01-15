@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Tracking Id:"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="Enter the Affiliate Id"
+        android:id="@+id/affiliate_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Token:"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="Enter the API Token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/token_edit"
+        android:inputType="text" />
+
+</LinearLayout>

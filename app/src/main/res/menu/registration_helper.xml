@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/resend_failed"
+        android:orderInCategory="100"
+        android:title="Resend All Failed"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/resend_stopped"
+        android:orderInCategory="100"
+        android:title="Resend All Stopped"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/remove_success"
+        android:orderInCategory="100"
+        android:title="Remove All Success"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/remove_all"
+        android:orderInCategory="100"
+        android:title="Stop &amp; Remove All"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/continue_again"
+        android:orderInCategory="100"
+        android:title="Continue on Stuck"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="Refresh All"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/status"
+        android:orderInCategory="100"
+        android:title="Status Count"
+        app:showAsAction="never" />
+
+</menu>

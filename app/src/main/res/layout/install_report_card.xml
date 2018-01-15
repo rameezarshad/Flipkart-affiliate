@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="0dp"
+    android:layout_gravity="center"
+    android:id="@+id/install_card"
+    android:layout_marginTop="10dp"
+    >
+    <LinearLayout
+        android:id="@+id/install_report_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/install_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Tentative"
+                android:textSize="16dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:textColor="@color/timestamp"
+                android:id="@+id/installed_date"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:text="2017-10-07"
+                />
+
+
+            <TextView
+                android:id="@+id/install_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/install_status"
+                android:layout_margin="10dp"
+                android:text="Install Count" />
+
+            <TextView
+                android:id="@+id/total_commision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/install_count"
+                android:layout_margin="10dp"
+                android:text="Total Commission" />
+
+            <TextView
+                android:id="@+id/install_type"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/install_status"
+                android:textAlignment="center"
+                android:text="Direct"
+                android:textColor="@android:color/holo_green_dark" />
+
+
+        </RelativeLayout
+            >
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

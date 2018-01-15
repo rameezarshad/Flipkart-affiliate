@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:layout_gravity="center"
+    android:id="@+id/card_response"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/thread_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/icon_front"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillAfter="false"
+            android:fillEnabled="false">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/icon_profile"
+                android:layout_width="@dimen/icon_width_height"
+                android:layout_height="@dimen/icon_width_height" />
+
+            <TextView
+                android:id="@+id/icon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/icon_text" />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/circular_progress_bar"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/thread_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Thread Name"
+                android:textSize="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:textColor="@color/timestamp"
+                android:id="@+id/timestamp_value"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:text="03:35:23 PM"
+                />
+
+            <TextView
+                android:id="@+id/response_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thread_name"
+                android:layout_marginLeft="10dp"
+                android:text="Response"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/card_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/response_tag"
+                android:layout_margin="10dp"
+                android:text="Response" />
+
+
+            <TextView
+                android:id="@+id/card_status"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/thread_name"
+                android:textAlignment="center"
+                android:text="STATUS"
+                android:textColor="@android:color/holo_green_dark" />
+
+
+        </RelativeLayout
+            >
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

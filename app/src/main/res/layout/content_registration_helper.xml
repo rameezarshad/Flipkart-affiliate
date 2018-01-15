@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.flipkart.android.register.RegistrationHelper">
+    <!--tools:showIn="@layout/app_bar_registration_helper"-->
+
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="15dp"
+        android:text="Counter: 0"
+        android:textColor="#FFFFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp">
+    <TextView
+        android:id="@+id/textViewJNI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</ScrollView>
+
+
+</RelativeLayout>

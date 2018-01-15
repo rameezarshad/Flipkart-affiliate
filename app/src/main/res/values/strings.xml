@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Register</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_install_report">InstallReport</string>
+    <string name="install_status_prompt">Select Status</string>
+    <string name="install_type_prompt">Select Click Type</string>
+
+    <string-array name="install_status">
+
+        <item>Tentative</item>
+        <item>Approved</item>
+        <item>Disapproved</item>
+        <item>All</item>
+
+    </string-array>
+
+    <string-array name="install_type">
+        <item>All</item>
+        <item>Fallback</item>
+        <item>Direct</item>
+
+    </string-array>
+</resources>
